@@ -10,15 +10,18 @@ h2 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 form {
   display: flex;
-  margin: auto;
+  margin: 0rem auto 3rem;
   flex-direction: column;
   width: 60vw;
   align-items: center;
   background-color: red;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
 }
 
 .input-group {
@@ -33,11 +36,39 @@ form {
   margin: auto;
   width: 70%;
   background-color: bisque;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   padding: 5px;
 }
 
 input.name {
   width: 90%;
+  padding: 0.5rem;
+}
+
+input.dob {
+  margin-top: 0.3rem;
+}
+
+input.radio {
+  width: auto;
+}
+
+h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 90%;
+  padding: 0.5rem;
+}
+
+select {
+  width: 20%;
+  padding: 0.5rem;
+}
+
+button {
+  width: 100%;
   padding: 0.5rem;
 }
