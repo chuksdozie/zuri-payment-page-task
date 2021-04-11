@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(./payment\ background.webp);
+  background-image: url(https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/mobile-payments-main.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -39,7 +39,7 @@ form {
 .input-box {
   margin: auto;
   width: 70%;
-  background-color: rgb(216, 214, 213);
+  background-color: rgba(216, 214, 213, 0.6);
   margin-top: 0.7rem;
   padding: 5px;
   border-radius: 0.1rem;
