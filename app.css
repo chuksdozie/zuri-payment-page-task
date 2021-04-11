@@ -1,32 +1,36 @@
 body {
-  background-color: yellow;
-  width: 100vw;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./payment\ background.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h2 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  color: whitesmoke;
 }
 
 form {
   display: flex;
-  margin: 0rem auto 3rem;
+  margin: 0rem auto 5rem;
   flex-direction: column;
-  width: 60vw;
+  width: 70vw;
   align-items: center;
-  background-color: red;
-  padding-bottom: 2rem;
+  background-color: rgba(248, 247, 247, 0.7);
+  padding-bottom: 5rem;
   padding-top: 1.5rem;
+  border-radius: 0.4rem;
 }
 
 .input-group {
   width: 100%;
-  background-color: blue;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -35,9 +39,10 @@ form {
 .input-box {
   margin: auto;
   width: 70%;
-  background-color: bisque;
+  background-color: rgb(216, 214, 213);
   margin-top: 0.7rem;
   padding: 5px;
+  border-radius: 0.1rem;
 }
 
 input.name {
@@ -55,7 +60,7 @@ input.radio {
 
 h4 {
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 input {
@@ -70,5 +75,9 @@ select {
 
 button {
   width: 100%;
-  padding: 0.5rem;
+  height: 3rem;
+  padding: 0.2rem;
+  background-color: green;
+  color: beige;
+  font-size: 18px;
 }
