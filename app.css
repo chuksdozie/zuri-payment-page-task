@@ -81,3 +81,67 @@ button {
   color: beige;
   font-size: 18px;
 }
+
+button:hover() {
+  color: green;
+  height: 3.5rem;
+  background-color: beige;
+}
+
+@media only screen and (max-width: 375px) {
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+
+  form {
+    width: 90vw;
+    padding-bottom: 3rem;
+  }
+
+  .input-box {
+    width: 90%;
+  }
+
+  input.name {
+    width: 80%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  select {
+    width: 30%;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 376px) {
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 20px;
+  }
+
+  form {
+    width: 80vw;
+    padding-bottom: 3rem;
+  }
+
+  .input-box {
+    width: 90%;
+  }
+
+  input.name {
+    width: 80%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  select {
+    width: 35%;
+    padding: 0.5rem;
+  }
+}
